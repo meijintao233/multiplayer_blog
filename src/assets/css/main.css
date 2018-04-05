@@ -1,0 +1,562 @@
+@charset "UTF-8";
+/*--------------------功能: 重设浏览器默认样式 START--------------------*/
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt,
+em, embed,
+fieldset, figcaption, figure, font, footer, form,
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd,
+keygen,
+label, legend, li,
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q,
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tt,
+u, ul,
+var {
+  background: transparent;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased; }
+
+blockquote, q {
+  quotes: none; }
+
+table, table td {
+  padding: 0;
+  border: none;
+  border-collapse: collapse; }
+
+img {
+  border: 0; }
+
+select {
+  white-space: nowrap; }
+
+caption {
+  text-align: left; }
+
+embed {
+  vertical-align: top; }
+
+div, ul, li, ol, dl, dd, p {
+  word-wrap: break-word; }
+
+ul, li, ol, dl, dd {
+  list-style-type: none; }
+
+input, textarea, select {
+  font-family: inherit;
+  outline: none;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+body {
+  text-align: left;
+  color: #828282; }
+
+html, body {
+  font: 10px/1.5 Microsoft YaHei,\5b8b\4f53, Arial, Verdana;
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  white-space: nowrap;
+  color: #828282; }
+
+input, input[type="button"], input[type="submit"], input[type="reset"], input[type="number"] {
+  -webkit-appearance: none; }
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; }
+
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none; }
+
+/* ---------- Responsive accurate ---------- */
+@media (min-width: 640px) {
+  html {
+    font-size: 24px; } }
+@media (min-width: 631px) and (max-width: 639px) {
+  html {
+    font-size: 23.66px; } }
+@media (min-width: 622px) and (max-width: 630px) {
+  html {
+    font-size: 23.33px; } }
+@media (min-width: 613px) and (max-width: 621px) {
+  html {
+    font-size: 23px; } }
+@media (min-width: 604px) and (max-width: 612px) {
+  html {
+    font-size: 22.66px; } }
+@media (min-width: 595px) and (max-width: 603px) {
+  html {
+    font-size: 22.33px; } }
+@media (min-width: 586px) and (max-width: 594px) {
+  html {
+    font-size: 22px; } }
+@media (min-width: 577px) and (max-width: 585px) {
+  html {
+    font-size: 21.66px; } }
+@media (min-width: 568px) and (max-width: 576px) {
+  html {
+    font-size: 21.33px; } }
+@media (min-width: 559px) and (max-width: 567px) {
+  html {
+    font-size: 21px; } }
+@media (min-width: 550px) and (max-width: 558px) {
+  html {
+    font-size: 20.66px; } }
+@media (min-width: 541px) and (max-width: 549px) {
+  html {
+    font-size: 20.33px; } }
+@media (min-width: 533px) and (max-width: 540px) {
+  html {
+    font-size: 20px; } }
+@media (min-width: 524px) and (max-width: 532px) {
+  html {
+    font-size: 19.66px; } }
+@media (min-width: 515px) and (max-width: 523px) {
+  html {
+    font-size: 19.33px; } }
+@media (min-width: 506px) and (max-width: 514px) {
+  html {
+    font-size: 19px; } }
+@media (min-width: 497px) and (max-width: 505px) {
+  html {
+    font-size: 18.66px; } }
+@media (min-width: 488px) and (max-width: 496px) {
+  html {
+    font-size: 18.33px; } }
+@media (min-width: 480px) and (max-width: 487px) {
+  html {
+    font-size: 18px; } }
+@media (min-width: 471px) and (max-width: 479px) {
+  html {
+    font-size: 17.66px; } }
+@media (min-width: 462px) and (max-width: 470px) {
+  html {
+    font-size: 17.33px; } }
+@media (min-width: 453px) and (max-width: 461px) {
+  html {
+    font-size: 17px; } }
+@media (min-width: 444px) and (max-width: 452px) {
+  html {
+    font-size: 17.12px; } }
+@media (min-width: 435px) and (max-width: 443px) {
+  html {
+    font-size: 16.33px; } }
+@media (min-width: 426px) and (max-width: 434px) {
+  html {
+    font-size: 16px; } }
+@media (min-width: 417px) and (max-width: 425px) {
+  html {
+    font-size: 15.66px; } }
+@media (min-width: 408px) and (max-width: 416px) {
+  html {
+    font-size: 15.33px; } }
+@media (min-width: 400px) and (max-width: 407px) {
+  html {
+    font-size: 15px; } }
+@media (min-width: 391px) and (max-width: 399px) {
+  html {
+    font-size: 14.66px; } }
+@media (min-width: 382px) and (max-width: 390px) {
+  html {
+    font-size: 14.33px; } }
+@media (min-width: 374px) and (max-width: 381px) {
+  html {
+    font-size: 14px; } }
+@media (min-width: 365px) and (max-width: 373px) {
+  html {
+    font-size: 13.66px; } }
+@media (min-width: 356px) and (max-width: 364px) {
+  html {
+    font-size: 13.33px; } }
+@media (min-width: 347px) and (max-width: 355px) {
+  html {
+    font-size: 13px; } }
+@media (min-width: 338px) and (max-width: 346px) {
+  html {
+    font-size: 12.66px; } }
+@media (min-width: 329px) and (max-width: 337px) {
+  html {
+    font-size: 12.44px; } }
+@media (max-width: 328px) {
+  html {
+    font-size: 12px; } }
+/*
+ * SASS setting 
+ */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4.1666666667rem;
+  background-color: #FFFFFF;
+  font-size: 0;
+  text-align: center; }
+  .bottom-nav .cell {
+    display: inline-block;
+    width: 20%;
+    height: 4.1666666667rem;
+    padding: 6px 0; }
+    .bottom-nav .cell img {
+      display: block;
+      width: 2.0833333333rem;
+      height: 2.0833333333rem;
+      margin: 0 auto; }
+    .bottom-nav .cell span {
+      display: inline-block;
+      height: 2.0833333333rem;
+      line-height: 2.0833333333rem;
+      font-size: 10px; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background-color: #ffffff; }
+
+.wrap {
+  min-width: 1000px; }
+
+.hide {
+  display: none; }
+
+.unvisible {
+  opacity: 0; }
+
+.zindex10 {
+  z-index: 10; }
+
+.zindex100 {
+  z-index: 100; }
+
+.zindex1000 {
+  z-index: 1000; }
+
+.zindex9999 {
+  z-index: 9999; }
+
+.clearfix, .clear {
+  *zoom: 1; }
+  .clearfix:after, .clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+.floatL {
+  float: left !important; }
+
+.floatR {
+  float: right !important; }
+
+.alert-txt {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  max-width: 80%;
+  padding: 0.6rem 1.1rem;
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  border-radius: 0.6rem;
+  z-index: 99999; }
+
+.fullBg {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat; }
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.horizontal-center {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.line-before:before {
+  content: '';
+  width: 200%;
+  height: 0;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px solid #D4D4D4; }
+
+.line-after:after {
+  content: '';
+  width: 200%;
+  height: 0;
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #D4D4D4; }
+
+.txt-right {
+  text-align: right; }
+
+.txt-left {
+  text-align: left; }
+
+.txt-center {
+  text-align: center; }
+
+#app .container {
+  width: 100%;
+  min-width: 1000px; }
+  #app .container .bg-img {
+    position: relative;
+    height: 800px; }
+    #app .container .bg-img p {
+      font-family: Georgia,Microsoft YaHei,serif;
+      position: absolute;
+      width: 100%;
+      min-width: 1000px;
+      top: 250px;
+      font-size: 40px;
+      color: #42B983;
+      text-align: center; }
+    #app .container .bg-img img {
+      width: 100%;
+      height: 100%; }
+    #app .container .bg-img .my-info {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      top: 240px;
+      left: 45%; }
+      #app .container .bg-img .my-info .my-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+        transform-style: preserve-3d;
+        transform-origin: 0 50%;
+        transition: 0.4s all ease-in-out;
+        z-index: 999; }
+        #app .container .bg-img .my-info .my-img img {
+          width: 100%; }
+      #app .container .bg-img .my-info .my-detail {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        background-color: #333;
+        color: #FFFFFF;
+        font-size: 14px; }
+        #app .container .bg-img .my-info .my-detail h3 {
+          margin: 0 auto;
+          margin-top: 12px;
+          width: 120px; }
+#app .footer {
+  margin: 15px 0 0 0;
+  font-size: 15px;
+  text-align: center;
+  height: 100px; }
+#app .register-login {
+  width: 600px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 60px;
+  border: 1px solid #DBDCD4;
+  background-color: #FFFFFF; }
+  #app .register-login .top {
+    width: 30%;
+    margin: 0 auto; }
+    #app .register-login .top div {
+      width: 50%;
+      float: left;
+      font-size: 18px;
+      color: #646448;
+      text-align: center; }
+      #app .register-login .top div span {
+        cursor: pointer;
+        position: relative; }
+        #app .register-login .top div span:after {
+          content: " ";
+          position: absolute;
+          width: 100%;
+          height: 1.5px;
+          bottom: 0;
+          left: 0;
+          background-color: #42B983;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          -moz-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transform-origin: 50% 50%;
+          -moz-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+          transition-duration: 0.2s;
+          transition-timing-function: ease-in-out;
+          transition-delay: 0s; }
+        #app .register-login .top div span:hover:after {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          -moz-transform: scaleX(1);
+          transform: scaleX(1); }
+  #app .register-login .bottom-login {
+    width: 327px;
+    margin: 15px auto; }
+    #app .register-login .bottom-login > div:nth-child(1) {
+      float: left; }
+      #app .register-login .bottom-login > div:nth-child(1) .iconfont {
+        font-size: 12px; }
+    #app .register-login .bottom-login > div:nth-child(2) {
+      float: right;
+      text-align: right;
+      color: #239C6F;
+      font-weight: bold; }
+  #app .register-login .middle-register, #app .register-login .middle-login {
+    margin: 25px 0;
+    padding: 0 65px; }
+    #app .register-login .middle-register > div, #app .register-login .middle-login > div {
+      width: 60%;
+      margin: 25px auto;
+      border: 1px solid #E6E7E2; }
+      #app .register-login .middle-register > div p, #app .register-login .middle-login > div p {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 12px 15px;
+        float: left;
+        width: 30%;
+        font-size: 12px;
+        color: #7D7B66;
+        height: 40px; }
+      #app .register-login .middle-register > div input, #app .register-login .middle-login > div input {
+        float: left;
+        width: 70%;
+        height: 40px;
+        border: none; }
+  #app .register-login .btn-register, #app .register-login .btn-login {
+    width: 327px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #239C6F;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer; }
+  #app .register-login .forget-password {
+    width: 944px;
+    margin: 0 auto; }
+    #app .register-login .forget-password .top {
+      margin: 0 auto;
+      width: 50%;
+      font-size: 18px;
+      color: #646448;
+      text-align: center;
+      font-weight: bold; }
+    #app .register-login .forget-password .middle-forget {
+      margin: 25px 0;
+      padding: 0 45px; }
+      #app .register-login .forget-password .middle-forget > div {
+        width: 40%;
+        margin: 25px auto;
+        border: 1px solid #E6E7E2; }
+        #app .register-login .forget-password .middle-forget > div p {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 12px 15px;
+          float: left;
+          width: 30%;
+          font-size: 12px;
+          color: #7D7B66;
+          height: 40px; }
+        #app .register-login .forget-password .middle-forget > div input {
+          float: left;
+          width: 70%;
+          height: 40px;
+          border: none; }
+        #app .register-login .forget-password .middle-forget > div:nth-child(2) {
+          position: relative; }
+          #app .register-login .forget-password .middle-forget > div:nth-child(2) .get-code {
+            position: absolute;
+            background-color: #F8F8F8;
+            color: #A9A9A9;
+            width: 90px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 12px;
+            right: 0;
+            text-align: center; }
+    #app .register-login .forget-password .btn-forget {
+      width: 327px;
+      margin: 0 auto;
+      height: 40px;
+      line-height: 40px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      background-color: #239C6F;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px; }
+#app .detail-wrap .img {
+  width: 100%;
+  overflow: hidden; }
+
+/*# sourceMappingURL=main.css.map */

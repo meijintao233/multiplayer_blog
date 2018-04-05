@@ -1,0 +1,55 @@
+.header-box{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 1000px;
+    height: 44px;
+    background-color: rgba(102,102,102,0.5);
+    z-index: 9999;
+    .search{
+        float: left;
+        padding-left: 15px;
+        position: relative;
+        #search{ 
+            margin: 7px 0;
+            width: 250px;      
+            height: 30px;
+            line-height: 30px;
+            border: none;
+            border-radius: 12px;
+            padding-left: 15px;
+            font-size: 12px;
+        }
+        .el-icon-search{
+            position:absolute;
+            top: 12px;
+            right: 6px;
+            font-size: 20px;   
+        }
+    }
+    .nav{
+        float: right;
+        ul{
+            padding: 0 40px;
+            li{
+                float: left;
+                width: 60px;
+                height: 40px;
+                font-size: 13px;
+                text-align: center;
+                color: #FFFFFF;
+                margin: 0 15px;
+
+                line-height:40px;
+                cursor: pointer;
+                border-bottom: 3.5px solid transparent;
+                &:hover{
+                  border-bottom: 3.5px solid deepskyblue;  
+                }
+            }
+            .router-link-active{
+                border-bottom: REM(3.5) solid deepskyblue;
+            }
+        }
+    }
+}
